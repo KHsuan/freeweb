@@ -6533,6 +6533,28 @@ textarea.form-control-lg {
   z-index: 1030;
 }
 
+.ml2 {
+  position: sticky;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+ml2, .ml2 {
+  font-size: calc(1.5rem + 1.5vw);
+}
+
+@media (min-width: 1200px) {
+  ml2, .ml2 {
+    font-size: 3rem;
+  }
+}
+
+
 .sticky-top {
   position: sticky;
   top: 0;
@@ -7366,16 +7388,6 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
-}
-
-.ml2 {
-  font-weight: 900;
-  font-size: 3.5em;
-}
-
-.ml2 .letter {
-  display: inline-block;
-  line-height: 1em;
 }
 
 .mb-auto {
