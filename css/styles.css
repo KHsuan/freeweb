@@ -7368,6 +7368,16 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -11286,7 +11296,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .text-white-75 {
@@ -11300,6 +11310,10 @@ body {
   text-transform: uppercase;
   border: none;
   border-radius: 10rem;
+}
+
+.logo{
+  height: 50px;
 }
 
 hr.divider {
@@ -11379,7 +11393,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(43, 26, 15, 0.8) 0%, rgba(43, 26, 15, 0.8) 100%), url("../assets/img/lapsee.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
